@@ -36,6 +36,10 @@
   margin: 0 1.5rem;
 }
 
+#home {
+    padding-bottom: 50px;
+}
+
 #home::after {
   content: "";
   display: inline-block;
@@ -84,11 +88,72 @@ h2 {
   font-size: 2rem;
 }
 
-.date-location h2,
-p {
+.date-location h2 {
   color: #4d4d4d;
 }
 
 .date-location p {
   font-size: 1.2rem;
+}
+
+/* Main Program */
+
+#main {
+    background-color: #282b34;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#main h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+#main h1::after {
+    content: "";
+    display: block;
+    background-color: #ec5242;
+    height: 1px;
+    width: 50px;
+    margin: 1rem auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.program {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 450px;
+}
+
+.program p {
+    color: #fff;
+}
+
+.program h3 {
+    color: #ec5242;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#main button {
+    margin-top: 1.5rem;
+    background-color: #ff4f38;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 2.5rem 5rem;
+    align-self: center;
 }
