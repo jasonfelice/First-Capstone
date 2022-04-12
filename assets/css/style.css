@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
@@ -71,6 +72,7 @@ h2 {
 }
 
 #home h1 {
+  text-align: left;
   font-weight: 900;
   font-size: 3rem;
 }
@@ -98,6 +100,10 @@ h2 {
 
 /* Main Program */
 
+section h1 {
+  text-align: center;
+}
+
 #main {
     background-color: #282b34;
     padding: 50px 0;
@@ -108,7 +114,6 @@ h2 {
 
 #main h1 {
     color: #fff;
-    text-align: center;
     font-weight: 400;
 }
 
@@ -188,6 +193,102 @@ h2 {
 /* Featured Speakers */
 
 #featured-speakers h1 {
-  text-align: center;
   margin-top: 2rem;
+}
+
+.speakers-container {
+  margin: 4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.speaker {
+  display: flex;
+  gap: 24px;
+}
+
+.speaker img {
+  width: 140px;
+  height: 140px;
+}
+
+.speaker-info {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.speaker-info p:nth-child(2) {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.speaker-info p:nth-child(2)::after {
+  content: "";
+  display: block;
+  background-color: #d3d3d3;
+  height: 2px;
+  width: 20px;
+  margin: 1rem 0;
+}
+
+/* Partner */
+
+#partner {
+  padding: 2rem 0;
+  background-color: #414246;
+}
+
+#partner h1 {
+  color: #fff;
+}
+
+#partner ul {
+  margin: 2rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.mozilla {
+  background: url(../images/partners/mozilla.png) no-repeat center center;
+  filter: invert(100%);
+  background-size: 125px;
+}
+
+.google {
+  background: url(../images/partners/google.png) no-repeat center center;
+  background-size: 110px;
+}
+
+.naver {
+  background: url(../images/partners/naver.png) no-repeat center center;
+}
+
+.daumkakao {
+  background: url(../images/partners/daumkakao.png) no-repeat center center;
+}
+
+.airbnb {
+  background: url(../images/partners/airbnb.png) no-repeat center center;
+}
+
+#partner ul li {
+    width: 150px;
+    height: 45px;
+    background-size: 125px;
+    filter: invert(50%);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
