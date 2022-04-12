@@ -112,7 +112,7 @@ h2 {
     font-weight: 400;
 }
 
-#main h1::after {
+.section-headline::after {
     content: "";
     display: block;
     background-color: #ec5242;
@@ -138,6 +138,33 @@ h2 {
     max-width: 450px;
 }
 
+.icon-lecture {
+  background: url(../images/icons/lecture.png) no-repeat center center/cover;
+}
+
+.icon-exhibition {
+  background: url(../images/icons/exhibition.png) no-repeat center center/cover;
+}
+
+.icon-forum {
+  background: url(../images/icons/forum.png) no-repeat center center/cover;
+}
+
+.icon-workshop {
+  background: url(../images/icons/workshop.png) no-repeat center center/cover;
+}
+
+.icon-ignite {
+  background: url(../images/icons/ignite.png) no-repeat center center/cover;
+}
+
+.program i {
+  width: 55px;
+  height: 55px;
+  filter: brightness(5);
+  flex-shrink: 0;
+}
+
 .program p {
     color: #fff;
 }
@@ -156,4 +183,11 @@ h2 {
     font-size: 1.5rem;
     padding: 2.5rem 5rem;
     align-self: center;
+}
+
+/* Featured Speakers */
+
+#featured-speakers h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
