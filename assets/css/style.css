@@ -418,6 +418,13 @@ footer {
   padding: 2rem;
 }
 
+footer span {
+  text-transform: uppercase;
+  font-family: oswald;
+  font-size: 1.3rem;
+  color: #272a31;
+}
+
 /* Utility Classes */
 
 .fix-position {

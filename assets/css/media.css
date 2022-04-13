@@ -79,6 +79,10 @@
   #main a {
     display: inline;
   }
+
+  .speaker-info {
+      max-width: 400px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
