@@ -56,6 +56,29 @@
     width: 60%;
     max-width: 600px;
   }
+
+  .main-container {
+      gap: 3px;
+  }
+
+  .program {
+      flex-direction: column;
+      gap: 0.5rem;
+      width: auto;
+  }
+
+  .program p {
+    max-width: 160px;
+    text-align: center;
+  }
+
+  #main button {
+    display: none;
+  }
+
+  #main a {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 1024px) {
