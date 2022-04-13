@@ -3,6 +3,11 @@
   src: url(../fonts/cocogoose.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'oswald';
+  src: url(../fonts/oswald.ttf) format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +35,10 @@
   padding: 10px;
 }
 
+.main-nav {
+  display: none;
+}
+
 .home-page {
   display: flex;
   flex-direction: column;
@@ -42,6 +51,7 @@
   width: 100%;
   height: 100%;
   backdrop-filter: blur(30px);
+  background-color: #ffffffa9;
   z-index: 2;
   display: none;
   animation: mobile-nav 0.2s ease-out;
@@ -147,7 +157,6 @@
 
   to {
     transform: rotate(-45deg) translate(-9px, 10px);
-    background-color: #ec5242;
   }
 }
 
@@ -158,7 +167,6 @@
 
   to {
     transform: rotate(45deg) translate(0px, 0px);
-    background-color: #ec5242;
   }
 }
 
@@ -173,6 +181,7 @@ h2 {
   font-weight: 900;
   font-size: 3rem;
   background-image: url(../images/text-background.jpg);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position: center;

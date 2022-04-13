@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) {
+  .menu-button {
+        display: none;
+  }
+
+  .top-bar {
+        display: flex;
+  }
+
+  .main-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 1.3rem 0;
+        filter: drop-shadow(0 -4px 4px #272a31);
+  }
+
+  .main-nav span {
+        text-transform: uppercase;
+        font-family: oswald;
+        font-size: 1.3rem;
+        color: #272a31;
+  }
+
+  .main-nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+  }
+
+  .main-nav a {
+        text-decoration: none;
+        color: #272a31;
+  }
+
+  .main-nav a:hover {
+        color: #ec5242;
+  }
+
+  .main-nav button {
+    background-color: #fff;
+    border: 5px solid #ec5242;
+    padding: 8px 20px;
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  .home-page {
+    padding: 2rem;
+    align-items: flex-start;
+  }
+
+  #home .brief-description-home {
+    width: 60%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-nav span {
+    font-size: 1.5rem;
+  }
+
+  .main-nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+  }
+
+  .home-page {
+      padding: 4rem;
+  }
+
+ #home h2 {
+      font-size: 2.3rem;
+  }
+
+  #home h1 {
+      font-size: 4.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main-nav span {
+    font-size: 2rem;
+  }
+
+  .home-page {
+    padding: 10rem;
+}
+}
