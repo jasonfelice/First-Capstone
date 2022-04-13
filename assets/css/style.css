@@ -97,6 +97,9 @@
 
 .menu-button {
   margin: 1rem 0;
+  align-self: flex-start;
+  height: 40px;
+  z-index: 2;
 }
 
 .menu-button i {
@@ -105,6 +108,44 @@
   height: 0.5rem;
   width: 2.5rem;
   margin: 0.3rem 0;
+}
+
+.close-cross i:nth-child(1) {
+  transform: rotate(0) translate(0, 0);
+  animation-name: cross-button1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.close-cross i:nth-child(2) {
+  display: none;
+}
+
+.close-cross i:nth-child(3) {
+  transform: rotate(0) translate(0, 0);
+  animation-name: cross-button2;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes cross-button1 {
+  from {
+      transform: rotate(0) translate(0, 0);
+  }
+  to {
+      transform: rotate(-45deg) translate(-9px, 10px);
+  }
+}
+
+@keyframes cross-button2 {
+  from {
+      transform: rotate(0) translate(0, 0);
+  }
+  to { 
+      transform: rotate(45deg) translate(0px, 0px);
+  }
 }
 
 #home h1,
@@ -340,3 +381,14 @@ footer {
   justify-content: space-around;
   padding: 2rem;
 }
+
+/* Utility Classes */
+
+.fix-position {
+  position: fixed;
+}
+
+.appear-block {
+  display: block;
+}
+
