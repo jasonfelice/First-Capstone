@@ -1,42 +1,42 @@
 @media screen and (min-width: 768px) {
   .menu-button {
-        display: none;
+    display: none;
   }
 
   .top-bar {
-        display: flex;
+    display: flex;
   }
 
   .main-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff;
-        padding: 1.3rem 0;
-        filter: drop-shadow(0 -4px 4px #272a31);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1.3rem 0;
+    filter: drop-shadow(0 -4px 4px #272a31);
   }
 
-  .main-nav span {
-        text-transform: uppercase;
-        font-family: oswald;
-        font-size: 1.3rem;
-        color: #272a31;
+  .main-nav .logo {
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 1.3rem;
+    color: #272a31;
   }
 
   .main-nav ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        gap: 2rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
   }
 
   .main-nav a {
-        text-decoration: none;
-        color: #272a31;
+    text-decoration: none;
+    color: #272a31;
   }
 
   .main-nav a:hover {
-        color: #ec5242;
+    color: #ec5242;
   }
 
   .main-nav button {
@@ -58,13 +58,13 @@
   }
 
   .main-container {
-      gap: 3px;
+    gap: 3px;
   }
 
   .program {
-      flex-direction: column;
-      gap: 0.5rem;
-      width: auto;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: auto;
   }
 
   .program p {
@@ -81,12 +81,12 @@
   }
 
   .speaker-info {
-      max-width: 400px;
+    max-width: 400px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .main-nav span {
+  .main-nav .logo {
     font-size: 1.5rem;
   }
 
@@ -98,24 +98,28 @@
   }
 
   .home-page {
-      padding: 4rem;
+    padding: 4rem;
   }
 
- #home h2 {
-      font-size: 2.3rem;
+  #home h2 {
+    font-size: 2.3rem;
   }
 
   #home h1 {
-      font-size: 4.2rem;
+    font-size: 4.2rem;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .main-nav span {
+  .main-nav .logo {
     font-size: 2rem;
   }
 
   .home-page {
     padding: 10rem;
-}
+  }
+
+  #home h1 {
+    font-size: 5rem;
+  }
 }

@@ -20,13 +20,27 @@
   justify-content: flex-end;
   align-items: center;
   background-color: #272a31;
-  padding: 5px 200px;
+  padding: 10px 200px;
   display: none;
 }
 
 .top-bar ul {
   display: flex;
+  align-items: center;
   list-style: none;
+  gap: 5px;
+}
+
+.top-bar ul .facebook-icon {
+  background: url(../images/icons/facebook.png) no-repeat center center;
+  background-size: 17px;
+  filter: invert(1);
+}
+
+.top-bar ul .twitter-icon {
+  background: url(../images/icons/twitter.png) no-repeat center center;
+  background-size: 17px;
+  filter: invert(1);
 }
 
 .top-bar a {
