@@ -17,7 +17,7 @@ Each Page has the following sections:
 - javaScript
 
 ## Live Demo
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/First-Capstone/blob/project-begins/index.html)
+[Live Demo Link](https://jasonfelice.github.io/First-Capstone/)
 
 To get a local copy up and running follow these simple example steps.
 - Copy this [link](https://github.com/jasonfelice/First-Capstone)
