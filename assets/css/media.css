@@ -52,6 +52,10 @@
     align-items: flex-start;
   }
 
+  .about-page {
+    padding: 2rem;
+  }
+
   #home .brief-description-home {
     width: 60%;
     max-width: 600px;
@@ -83,6 +87,23 @@
   .speaker-info {
     max-width: 400px;
   }
+
+  .card-wrapper {
+    flex-direction: row;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .footer-about span {
+    color: #fff;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -101,6 +122,10 @@
     padding: 4rem;
   }
 
+  .about-page {
+    padding: 4rem;
+  }
+
   #home h2 {
     font-size: 2.3rem;
   }
@@ -116,6 +141,10 @@
   }
 
   .home-page {
+    padding: 10rem;
+  }
+
+  .about-page {
     padding: 10rem;
   }
 

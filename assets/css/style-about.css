@@ -53,7 +53,7 @@
   display: none;
 }
 
-.home-page {
+.about-page {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -278,6 +278,17 @@ section h1 {
   font-size: 4rem;
 }
 
+
+.card-wrapper {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 80vw;
+  gap: 1rem;
+}
+
 .card1 {
   background: linear-gradient(#d42000af, #bd22079a), url(../images/about/about-card-background1.jpg) no-repeat center center;
 }
@@ -291,7 +302,7 @@ section h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 430px;
+  max-width: 415px;
   width: 80%;
   height: 230px;
   background-size: 415px;
