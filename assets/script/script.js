@@ -2,43 +2,43 @@ const mobileNavLinks = document.querySelectorAll('.mobile-nav ul a');
 const speakerArr = [
     {
         name: 'Yaiza Jessika',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Jessika studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Jessika Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker1.jpg',
         alt: 'A picture of Yaiza Jessika'
     },
     {
         name: 'Payne Alois',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Alois studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Alois Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker2.jpg',
         alt: 'A picture of Payne Alois'
     },
     {
         name: 'Jochen Adi',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Adi studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Adi Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker3.jpg',
         alt: 'A picture of Jochen Adi'
     },
     {
         name: 'Daniel Sture',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Sture studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Sture Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker4.jpg',
         alt: 'A picture of Daniel Sture'
     },
     {
         name: 'Alena Christel',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Christel studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Christel Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker5.jpg',
         alt: 'A picture of Alena Christel'
     },
     {
         name: 'Karl Miguel',
-        description: 'Bankler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-        title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        description: 'Miguel studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+        title: 'Miguel Professor of Entrepreneurial Legal Studies at Harvard Law School',
         picture: 'assets/images/speaker/speaker6.jpg',
         alt: 'A picture of Karl Miguel'
     }
