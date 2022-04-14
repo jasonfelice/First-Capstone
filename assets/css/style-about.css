@@ -16,7 +16,6 @@
 }
 
 .top-bar {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: #272a31;
@@ -76,6 +75,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -106,7 +106,7 @@
   height: 2px;
   border-radius: 10px;
   background: #f7f7f7;
-  box-shadow: 0px 1px 1px black;
+  box-shadow: 0 1px 1px black;
   transition: all 0.5s ease-out;
 }
 
@@ -170,7 +170,7 @@
   }
 
   to {
-    transform: rotate(45deg) translate(0px, 0px);
+    transform: rotate(45deg) translate(0, 0);
   }
 }
 
@@ -179,6 +179,10 @@
   flex-direction: column;
   align-items: center;
   gap: 3.2rem;
+}
+
+section h1 {
+  text-align: center;
 }
 
 #home h1,
@@ -209,15 +213,18 @@ h2 {
   line-height: 2rem;
 }
 
+footer span {
+  text-transform: uppercase;
+  font-family: 'oswald', sans-serif;
+  font-size: 1.3rem;
+  color: #272a31;
+}
+
 .contact-us span {
   font-weight: 600;
 }
 
 /* Main Program */
-
-section h1 {
-  text-align: center;
-}
 
 #about {
   padding: 50px 0;
@@ -274,10 +281,9 @@ section h1 {
   height: 130px;
   justify-content: center;
   align-items: center;
-  font-family: 'oswald';
+  font-family: 'oswald', sans-serif;
   font-size: 4rem;
 }
-
 
 .card-wrapper {
   align-self: stretch;
@@ -309,7 +315,7 @@ section h1 {
 }
 
 .past-card span:nth-child(1) {
-  font-family: 'oswald';
+  font-family: 'oswald', sans-serif;
   color: #fff;
   font-size: 3rem;
   font-weight: 600;
@@ -376,13 +382,6 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 2rem;
-}
-
-footer span {
-  text-transform: uppercase;
-  font-family: oswald;
-  font-size: 1.3rem;
-  color: #272a31;
 }
 
 /* Utility Classes */
