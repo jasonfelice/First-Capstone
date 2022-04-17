@@ -1,5 +1,7 @@
 # Seminar - Capstone Project
 
+![Preview](assets/preview/preview.png)
+
 It contains two pages:
 - Home
 - About
