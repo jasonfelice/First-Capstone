@@ -104,6 +104,10 @@
   .footer-about span {
     color: #fff;
   }
+
+  .card-wrapper {
+    width: 80vw;
+  }
 }
 
 @media screen and (min-width: 1024px) {

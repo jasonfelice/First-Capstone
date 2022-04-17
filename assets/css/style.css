@@ -273,10 +273,12 @@ h2 {
   padding: 1rem;
   width: 90%;
   max-width: 530px;
+  transition: all 0.3s;
 }
 
 .program:hover {
   border: 2px solid #fff;
+  transform: scale(1.05);
 }
 
 .icon-lecture {
