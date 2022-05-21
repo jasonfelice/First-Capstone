@@ -345,6 +345,7 @@ h2 {
 .speaker {
   display: flex;
   gap: 24px;
+  font-size: 12px;
 }
 
 .speaker img {

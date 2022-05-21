@@ -88,6 +88,10 @@
     max-width: 400px;
   }
 
+  .speaker {
+    font-size: 16px;
+  }
+
   .card-wrapper {
     flex-direction: row;
   }
