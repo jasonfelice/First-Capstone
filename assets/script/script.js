@@ -80,6 +80,8 @@ function appendSpeaker(i) {
   document.querySelector('.speakers-container').appendChild(speakerWrapper);
 }
 
-for (let i = 0; i < speakerArr.length; i += 1) {
-  appendSpeaker(i);
+if (document.querySelector('.speakers-container')) {
+  for (let i = 0; i < speakerArr.length; i += 1) {
+    appendSpeaker(i);
+  }
 }
