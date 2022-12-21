@@ -2,6 +2,8 @@
 
 ![Preview](assets/preview/preview.png)
 
+> This is a clone of a creative commons seminar webpage and consists of two pages, both fully responsive for desktop and mobile phones.
+
 It contains two pages:
 - Home
 - About
@@ -34,7 +36,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@jasonfelice](https://github.com/jasonfelice)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jason-felice-11a5a622b/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jake-felice/)
+- Twitter: [@jasonfelice0](https://twitter.com/jasonfelice0)
 
 ## 🤝 Contributing
 
@@ -46,9 +49,6 @@ Feel free to check the [issues page](../../issues/).
 - I have used Creative Commons design under [this](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licence. Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 - Facebook icons created by [Freepik](https://www.flaticon.com/free-icons/facebook) - Flaticon
 - Twitter icons created by [Pixel perfect](https://www.flaticon.com/free-icons/twitter) - Flaticon
-
-
-
 
 ## Acknowledgments
 
