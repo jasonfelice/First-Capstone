@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Jake Felice**
 
 - GitHub: [@jasonfelice](https://github.com/jasonfelice)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jake-felice/)
